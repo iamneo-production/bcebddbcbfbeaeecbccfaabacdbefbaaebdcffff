@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.72" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.845" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/coder/project/workspace/Testing-with-Selenium-TestNg/target/surefire/surefirebooter16288289936568988128.jar /home/coder/project/workspace/Testing-with-Selenium-TestNg/target/surefire 2023-08-24T13-28-28_462-jvmRun1 surefire16233103343398828303tmp surefire_0379803518735854164tmp"/>
+    <property name="sun.java.command" value="/home/coder/project/workspace/Testing-with-Selenium-TestNg/target/surefire/surefirebooter4278181748310671195.jar /home/coder/project/workspace/Testing-with-Selenium-TestNg/target/surefire 2023-08-24T13-33-38_461-jvmRun1 surefire12262951741189035984tmp surefire_013961306032096892398tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/coder/project/workspace/Testing-with-Selenium-TestNg/target/test-classes:/home/coder/project/workspace/Testing-with-Selenium-TestNg/target/classes:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-java/4.1.0/selenium-java-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-api/4.1.0/selenium-api-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.1.0/selenium-chrome-driver-4.1.0.jar:/home/coder/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/home/coder/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/home/coder/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/home/coder/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/coder/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/coder/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/coder/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/coder/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/home/coder/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/home/coder/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.1.0/selenium-chromium-driver-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-json/4.1.0/selenium-json-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.1.0/selenium-devtools-v85-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.1.0/selenium-devtools-v94-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.1.0/selenium-devtools-v95-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v96/4.1.0/selenium-devtools-v96-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.1.0/selenium-edge-driver-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.1.0/selenium-firefox-driver-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.0/selenium-firefox-xpi-driver-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.1.0/selenium-ie-driver-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.0/selenium-opera-driver-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.1.0/selenium-remote-driver-4.1.0.jar:/home/coder/.m2/repository/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final.jar:/home/coder/.m2/repository/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final.jar:/home/coder/.m2/repository/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final.jar:/home/coder/.m2/repository/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final.jar:/home/coder/.m2/repository/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final.jar:/home/coder/.m2/repository/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final.jar:/home/coder/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.69.Final/netty-transport-native-kqueue-4.1.69.Final.jar:/home/coder/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final.jar:/home/coder/.m2/repository/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final.jar:/home/coder/.m2/repository/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-api/1.9.0/opentelemetry-api-1.9.0.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-context/1.9.0/opentelemetry-context-1.9.0.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.9.0/opentelemetry-exporter-logging-1.9.0.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.9.0-alpha/opentelemetry-sdk-metrics-1.9.0-alpha.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.9.0-alpha/opentelemetry-sdk-logs-1.9.0-alpha.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.9.0/opentelemetry-sdk-common-1.9.0.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.9.0/opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.9.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.9.0/opentelemetry-sdk-trace-1.9.0.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.9.0-alpha/opentelemetry-api-metrics-1.9.0-alpha.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.9.0/opentelemetry-sdk-1.9.0.jar:/home/coder/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.9.0-alpha/opentelemetry-semconv-1.9.0-alpha.jar:/home/coder/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.12.1/byte-buddy-1.12.1.jar:/home/coder/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/coder/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/coder/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/coder/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/coder/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/coder/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/coder/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/coder/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/coder/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/coder/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-http/4.1.0/selenium-http-4.1.0.jar:/home/coder/.m2/repository/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.1.0/selenium-safari-driver-4.1.0.jar:/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-support/4.1.0/selenium-support-4.1.0.jar:/home/coder/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/home/coder/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/coder/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/coder/project/workspace/Testing-with-Selenium-TestNg/target/surefire/surefirebooter16288289936568988128.jar"/>
+    <property name="surefire.real.class.path" value="/home/coder/project/workspace/Testing-with-Selenium-TestNg/target/surefire/surefirebooter4278181748310671195.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+10-post-Debian-1deb11u1"/>
     <property name="user.name" value="coder"/>
@@ -60,38 +60,247 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testcase_1" classname="ai.iamneo.testing.Testing_Selenium_TestNg.AppTest" time="4.032">
-    <failure message="unknown error: session deleted because of page crash&#10;from tab crashed&#10;  (Session info: chrome=114.0.5735.133)&#10;Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;&#10;System info: host: &apos;bcebddbcbfbeaeecbccfaabacdbefbaaebdcffff-0&apos;, ip: &apos;10.80.3.84&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.107+&apos;, java.version: &apos;11.0.18&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [d2e8baf69cb4f7ca00c531b1141650ed, get {url=https://flipkart.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.mkhV4y}, goog:chromeOptions: {debuggerAddress: localhost:41181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.84:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.84:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.84:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d2e8baf69cb4f7ca00c531b1141650ed" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: session deleted because of page crash
-from tab crashed
-  (Session info: chrome=114.0.5735.133)
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'bcebddbcbfbeaeecbccfaabacdbefbaaebdcffff-0', ip: '10.80.3.84', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.18'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [d2e8baf69cb4f7ca00c531b1141650ed, get {url=https://flipkart.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.mkhV4y}, goog:chromeOptions: {debuggerAddress: localhost:41181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.84:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.84:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.84:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2e8baf69cb4f7ca00c531b1141650ed
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_1(AppTest.java:27)
-]]></failure>
-    <system-err><![CDATA[Aug 24, 2023 1:28:29 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+  <testcase name="testcase_1" classname="ai.iamneo.testing.Testing_Selenium_TestNg.AppTest" time="7.741">
+    <system-out><![CDATA[Number of links on a page :: 416
+]]></system-out>
+    <system-err><![CDATA[Aug 24, 2023 1:33:39 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
 INFO: Using OpenTelemetry for tracing
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Aug 24, 2023 1:28:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 24, 2023 1:33:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testcase_2" classname="ai.iamneo.testing.Testing_Selenium_TestNg.AppTest" time="0.089">
-    <failure message="invalid session id&#10;Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;&#10;System info: host: &apos;bcebddbcbfbeaeecbccfaabacdbefbaaebdcffff-0&apos;, ip: &apos;10.80.3.84&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.107+&apos;, java.version: &apos;11.0.18&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [d2e8baf69cb4f7ca00c531b1141650ed, findElements {using=tag name, value=a}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.mkhV4y}, goog:chromeOptions: {debuggerAddress: localhost:41181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.84:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.84:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.84:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d2e8baf69cb4f7ca00c531b1141650ed" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
-invalid session id
+  <testcase name="testcase_2" classname="ai.iamneo.testing.Testing_Selenium_TestNg.AppTest" time="11.569">
+    <failure message="unknown error: session deleted because of page crash&#10;from unknown error: cannot determine loading status&#10;from tab crashed&#10;  (Session info: chrome=114.0.5735.133)&#10;Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;&#10;System info: host: &apos;bcebddbcbfbeaeecbccfaabacdbefbaaebdcffff-0&apos;, ip: &apos;10.80.3.85&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.107+&apos;, java.version: &apos;11.0.18&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [af805c1ed523ebe696b37ac51412cdc0, getElementAttribute {id=1A2B2B42612B243A2B70EBEA1D09BC12_element_197, name=href}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.4ayW9S}, goog:chromeOptions: {debuggerAddress: localhost:43865}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.85:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.85:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.85:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[RemoteWebDriver: chrome on LINUX (af805c1ed523ebe696b37ac51412cdc0)] -&gt; tag name: a]&#10;Session ID: af805c1ed523ebe696b37ac51412cdc0" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=114.0.5735.133)
 Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'bcebddbcbfbeaeecbccfaabacdbefbaaebdcffff-0', ip: '10.80.3.84', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.18'
+System info: host: 'bcebddbcbfbeaeecbccfaabacdbefbaaebdcffff-0', ip: '10.80.3.85', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [d2e8baf69cb4f7ca00c531b1141650ed, findElements {using=tag name, value=a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.mkhV4y}, goog:chromeOptions: {debuggerAddress: localhost:41181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.84:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.84:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.84:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2e8baf69cb4f7ca00c531b1141650ed
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_2(AppTest.java:34)
+Command: [af805c1ed523ebe696b37ac51412cdc0, getElementAttribute {id=1A2B2B42612B243A2B70EBEA1D09BC12_element_197, name=href}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.4ayW9S}, goog:chromeOptions: {debuggerAddress: localhost:43865}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.85:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.85:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.85:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on LINUX (af805c1ed523ebe696b37ac51412cdc0)] -> tag name: a]
+Session ID: af805c1ed523ebe696b37ac51412cdc0
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_2(AppTest.java:37)
 ]]></failure>
+    <system-out><![CDATA[Link Text : 
+Link URL  : https://www.flipkart.com/
+Link Text : 
+Link URL  : https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY
+Link Text : Explore
+Plus
+Link URL  : https://www.flipkart.com/plus
+Link Text : 
+Link URL  : https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect
+Link Text : Become a Seller
+Link URL  : https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect
+Link Text : Sign in
+Link URL  : https://www.flipkart.com/account/login?ret=/
+Link Text : 
+Link URL  : https://www.flipkart.com/account/login?signup=true&ret=/
+Link Text : 
+Link URL  : https://www.flipkart.com/account/?rd=0&link=home_account
+Link Text : 
+Link URL  : https://www.flipkart.com/plus
+Link Text : 
+Link URL  : https://www.flipkart.com/account/orders?link=home_orders
+Link Text : 
+Link URL  : https://www.flipkart.com/wishlist?link=home_wishlist
+Link Text : 
+Link URL  : https://www.flipkart.com/account/rewards?link=home_rewards
+Link Text : 
+Link URL  : https://www.flipkart.com/the-gift-card-store?link=home_giftcard
+Link Text : Login
+Link URL  : https://www.flipkart.com/account/login?ret=/
+Link Text : 
+Link URL  : https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART
+Link Text : Cart
+Link URL  : https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART
+Link Text : 
+Link URL  : https://www.flipkart.com/#
+Link Text : 
+Link URL  : https://www.flipkart.com/communication-preferences/push?t=all
+Link Text : 
+Link URL  : https://www.flipkart.com/helpcentre
+Link Text : 
+Link URL  : https://advertising.flipkart.com/?otracker=ch_vn_advertise_header
+Link Text : 
+Link URL  : https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps
+Link Text : Grocery
+Link URL  : https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_4cc05d65-3dc8-46f9-befc-b0582a05efe4_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1
+Link Text : Mobiles
+Link URL  : https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_4cc05d65-3dc8-46f9-befc-b0582a05efe4_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J
+Link Text : Appliances
+Link URL  : https://www.flipkart.com/tvs-and-appliances-new-clp-store?fm=neo%2Fmerchandising&iid=M_4cc05d65-3dc8-46f9-befc-b0582a05efe4_1_372UD5BXDFYS_MC.LO4IWVHA61BX&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Appliances_LO4IWVHA61BX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=LO4IWVHA61BX
+Link Text : Travel
+Link URL  : https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_4cc05d65-3dc8-46f9-befc-b0582a05efe4_1_372UD5BXDFYS_MC.V4ZPKTOAO321&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Travel_V4ZPKTOAO321&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=V4ZPKTOAO321
+Link Text : 
+Link URL  : https://www.flipkart.com/6bo/ffn/t64/~cs-34zhxttfud/pr?sid=6bo,ffn,t64&collection-tab-name=Ink+Tank+Printers
+Link Text : 
+Link URL  : https://www.flipkart.com/6bo/b5g/~cs-yr1vxer28o/pr?sid=6bo,b5g&collection-tab-name=Intel+Laptops
+Link Text : 
+Link URL  : https://www.flipkart.com/travel/flights?param=Travel_FKHP_DT-HPW_Rakhi-IndiSpicAirAsia
+Link Text : 
+Link URL  : https://www.flipkart.com/travel/flights?param=Travel_FKHP_DT-HPW_Rakhi-Intl.4999
+Link Text : 
+Link URL  : https://www.flipkart.com/realme-11x-5g-ehjn922o-7gga5m-store?param=6749
+Link Text : 
+Link URL  : https://www.flipkart.com/ckf/czl/~cs-tmvchnovao/pr?sid=ckf%2Cczl&collection-tab-name=Flash+Sale+Deals&sort=recency_desc&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock
+Link Text : 
+Link URL  : https://www.flipkart.com/house-of-ethnic-ss23-store?param=378
+Link Text : 
+Link URL  : https://www.flipkart.com/6bo/ffn/t64/~cs-34zhxttfud/pr?sid=6bo,ffn,t64&collection-tab-name=Ink+Tank+Printers
+Link Text : 
+Link URL  : https://www.flipkart.com/6bo/b5g/~cs-yr1vxer28o/pr?sid=6bo,b5g&collection-tab-name=Intel+Laptops
+Link Text : Best of Electronics
+Link URL  : https://www.flipkart.com/offers-list/content?screen=dynamic&pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU
+Link Text : Top Mirrorless Cameras
+Shop Now!
+Link URL  : https://www.flipkart.com/cameras/dslr-mirrorless/pr?sid=jek%2Cp31%2Ctrv&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.type%255B%255D%3DMirrorless&param=179&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJTaG9wIE5vdyEiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJUb3AgTWlycm9ybGVzcyBDYW1lcmFzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiRExMRzJYRENGQlhWVVpUSCIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D
+Link Text : Printers
+From ₹2336
+Link URL  : https://www.flipkart.com/computers/computer-peripherals/printers-inks/printers/pr?sid=6bo%2Ctia%2Cffn%2Ct64&fm=neo%2Fmerchandising&iid=M_2731d14e-2583-4664-a065-6fc7ea504a6d_2_372UD5BXDFYS_MC.ES1XN5J8PT49&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L2_view-all&cid=ES1XN5J8PT49&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DCanon&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTIzMzYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJQcmludGVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IlBSTkY4NFBIWVJTU1pNRkciLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19
+Link Text : Best of Trimmers
+From ₹399
+Link URL  : https://www.flipkart.com/health-personal-care-appliances/~cs-t04l50abp7/pr?sid=zlw&collection-tab-name=Trimmer_OMU&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTM5OSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgVHJpbW1lcnMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJUTVJGVkZGRjlVQkpVQzY3IiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D
+Link Text : Premium PowerBanks
+Shop Now
+Link URL  : https://www.flipkart.com/mobile-accessories/power-banks/~cs-zewisow11f/pr?sid=tyy%2C4mr%2Cfu6&collection-tab-name=Premium+PowerBanks&sort=price_asc&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJTaG9wIE5vdyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlByZW1pdW0gUG93ZXJCYW5rcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+Link Text : Printers
+From ₹3999
+Link URL  : https://www.flipkart.com/computers/computer-peripherals/printers-inks/printers/pr?sid=6bo%2Ctia%2Cffn%2Ct64&fm=neo%2Fmerchandising&iid=M_2731d14e-2583-4664-a065-6fc7ea504a6d_2_372UD5BXDFYS_MC.ES1XN5J8PT49&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L2_view-all&cid=ES1XN5J8PT49&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DHP&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTM5OTkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJQcmludGVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IlBSTkRYSFpFNVI5SFVKSlkiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19
+Link Text : Best of Women Trimmers
+From ₹599
+Link URL  : https://www.flipkart.com/health-personal-care-appliances/personal-care-appliances/trimmers/pr?count=40&p%5B%5D=facets.ideal_for%255B%255D%3DWomen&sid=zlw%2F79s%2Fby3&p%5B%5D=facets.brand%255B%255D%3DSyska&p%5B%5D=facets.brand%255B%255D%3DNOVA&p%5B%5D=facets.brand%255B%255D%3DHavells&p%5B%5D=facets.brand%255B%255D%3DWAHL&hpid=eoN7UDNvZNvIePCm7zzpHap7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTU5OSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IlRNUkZUWjhHQVFTUkZKWDQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJCZXN0IG9mIFdvbWVuIFRyaW1tZXJzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D
+Link Text : Monitors
+From ₹7949
+Link URL  : https://www.flipkart.com/computers/monitors/pr?sid=6bo%2C9no&fm=neo%2Fmerchandising&iid=M_ce1a6f68-d7d2-4ae1-875c-0d0877d9a11f_2_372UD5BXDFYS_MC.ECL5SFI77NSY&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=ECL5SFI77NSY&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DLenovo&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTc5NDkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJNb25pdG9ycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6Ik1PTkZWNUhSTkY0UUZWRzQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19
+Link Text : Monitors
+From ₹6599
+Link URL  : https://www.flipkart.com/computers/monitors/pr?sid=6bo%2C9no&fm=neo%2Fmerchandising&iid=M_ce1a6f68-d7d2-4ae1-875c-0d0877d9a11f_2_372UD5BXDFYS_MC.ECL5SFI77NSY&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=ECL5SFI77NSY&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3Dacer&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTY1OTkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJNb25pdG9ycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6Ik1PTkdaQktaR0FCM0hNVVYiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19
+Link Text : 
+Link URL  : https://www.flipkart.com/travel/flights?param=Travel_DT-RHS_AW_NEW_3AIRLINE-INDVIAIRIN&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiSUFEIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&nnc=9FYD8LER5WPW_IAD
+Link Text : Beauty, Food, Toys & more
+Link URL  : https://www.flipkart.com/offers-list/beauty-food-toys-more?screen=dynamic&pk=themeViews%3DDT-OMU-2%3ADeal-DT~widgetType%3DdealCard~contentType%3Dneo
+Link Text : Electric Cycle
+Up to 40% Off
+Link URL  : https://www.flipkart.com/sports/cycling/electric-cycle/pr?sid=abc%2Culv%2Ctwp&hpid=IN6WQymhhksnM1l95t0Z6Kp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA0MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiRUNZR0JNVUFOOVJUVlpQQiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkVsZWN0cmljIEN5Y2xlIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D
+Link Text : Top Selling Stationery
+From ₹49
+Link URL  : https://www.flipkart.com/pens-stationery/pr?sid=dgv&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&hpid=B2Ku1G4aX7ZGf37AOgCozap7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiUEVORlhLQ0pNRloyQTRWSCIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlRvcCBTZWxsaW5nIFN0YXRpb25lcnkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+Link Text : String Instruments
+Up to 70% Off
+Link URL  : https://www.flipkart.com/musical-instruments/string-instruments/pr?sid=ypu%2Cujd&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&hpid=B-XAf3E_DShXt5jns5U3Map7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA3MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiQUNHRkdZSFU5VEZLWVRGQSIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlN0cmluZyBJbnN0cnVtZW50cyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+Link Text : Geared Cycles
+From ₹ 3999
+Link URL  : https://www.flipkart.com/sports/cycling/cycles/pr?sid=abc%2Culv%2Cixt&p%5B%5D=facets.tyre_size%255B%255D%3D27.5%2Binches&p%5B%5D=facets.tyre_size%255B%255D%3D28%2Binches&p%5B%5D=facets.tyre_size%255B%255D%3D29%2Binches&p%5B%5D=facets.brand%255B%255D%3DHERCULES&p%5B%5D=facets.brand%255B%255D%3DUrban%2BTerrain&p%5B%5D=facets.brand%255B%255D%3DHRX&p%5B%5D=facets.brand%255B%255D%3DLEADER&p%5B%5D=facets.brand%255B%255D%3DHERO&p%5B%5D=facets.brand%255B%255D%3DCRADIAC&p%5B%5D=facets.brand%255B%255D%3DAdrenex%2Bby%2BFlipkart&p%5B%5D=facets.brand%255B%255D%3DWALTX&p%5B%5D=facets.brand%255B%255D%3DVector%2B91&p%5B%5D=facets.brand%255B%255D%3DMontra&p%5B%5D=facets.brand%255B%255D%3DFIREFOX%2BBIKES&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&hpid=Lk-wso-VDfqk58fy3bl2IKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuSAzOTk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiQ0NFRzZHRUVHTVVDSkdKTSIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkdlYXJlZCBDeWNsZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+Link Text : Non-Geared Cycles
+Up to 40% Off
+Link URL  : https://www.flipkart.com/sports/cycling/cycles/pr?sid=abc%2Culv%2Cixt&p%5B%5D=facets.gear_type%255B%255D%3DNon%2BGeared&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&hpid=WXirg7reAiTX0n-6u1knE6p7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA0MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiQ0NFR0hGOEFSWUtBUFlZQiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk5vbi1HZWFyZWQgQ3ljbGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D
+Link Text : Car pressure washer
+Upto 65% Off
+Link URL  : https://www.flipkart.com/automotive-accessories/vehicle-cleaners/vehicle-pressure-washers/pr?sid=1mt%2Cs84%2Cjzx&marketplace=FLIPKART&hpid=pJwjnlPNnItperFYKPD-6qp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDY1JSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJDV1JHS1Y1R0RUWUNFTkhOIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiQ2FyIHByZXNzdXJlIHdhc2hlciJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+Link Text : Food Spreads
+Upto 75% Off
+Link URL  : https://www.flipkart.com/food-products/food-spreads/pr?sid=eat%2Cxhv&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=3787&hpid=9V0SxtV29n-BM8--0trrxKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDc1JSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJKQVNGRVJISkFQRE5ERllKIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiRm9vZCBTcHJlYWRzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D
+Link Text : Coffee Powder
+Upto 80% Off
+Link URL  : https://www.flipkart.com/food-products/coffee-powder/pr?sid=eat%2Cdui&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=1691&hpid=1I_X1PzAakQakM538Nz3KKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDgwJSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJDRkVFVTZaRjgyS1hUNDhZIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiQ29mZmVlIFBvd2RlciJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+Link Text : Get Set For Sports
+Link URL  : https://www.flipkart.com/offers-list/get-set-for-sports?screen=dynamic&pk=contentTags%3DGet_Set_For_Sports~marketplace%3DFLIPKART~widgetType%3DdealCard~contentType%3DpersonalisedRecommendation%2FC5&marketplace=FLIPKART
+Link Text : Men's T-shirts
+Min. 50% Off
+Link URL  : https://www.flipkart.com/all/~cs-89a4af89beda2604cb8435b235dee6f1/pr?sid=clo,ash,ank,edy&marketplace=FLIPKART&restrictLocale=true
+Link Text : Men's Tracksuits
+Min. 50% Off
+Link URL  : https://www.flipkart.com/all/~cs-6950239e42b8e6d75b50a6cd3c28459c/pr?sid=clo,nyk,zp4&marketplace=FLIPKART&restrictLocale=true
+Link Text : Men's Sweatshirts
+Min. 50% Off
+Link URL  : https://www.flipkart.com/all/~cs-c7a8981ad3bb2917239248c24b8d478f/pr?sid=clo,qvw,64a,vui&marketplace=FLIPKART&restrictLocale=true
+Link Text : Skating
+Min. 50% Off
+Link URL  : https://www.flipkart.com/all/~cs-e29447cf04ee7f79cefa39503d29e7be/pr?sid=abc,mgq&marketplace=FLIPKART&restrictLocale=true
+Link Text : Brand Directory
+Link URL  : https://www.flipkart.com/brands
+Link Text : Spoyl Store
+Link URL  : https://www.flipkart.com/spoyl-ff-store?otracker=undefined_footer
+Link Text : One Pieces
+Link URL  : https://www.flipkart.com/q/one-pieces?otracker=undefined_footer
+Link Text : Fashion EOSS Sale
+Link URL  : https://www.flipkart.com/fashion-eoss-trendy-june23-sale-store?otracker=undefined_footer
+Link Text : Trend Stop
+Link URL  : https://www.flipkart.com/trend-stop-23-store?otracker=undefined_footer
+Link Text : Flipkart Axis Bank Super Elite Credit card
+Link URL  : https://www.flipkart.com/superelite-credit-card-store?otracker=undefined_footer
+Link Text : 5G Mobile Phones
+Link URL  : https://www.flipkart.com/5g-mobile-phones-store?otracker=undefined_footer
+Link Text : Primebook Laptops
+Link URL  : https://www.flipkart.com/primebook-laptop-store?otracker=undefined_footer
+Link Text : Moto Edge 40
+Link URL  : https://www.flipkart.com/motorola-edge-40-jet-black-256-gb/p/itmbe5b18bf1f229?otracker=undefined_footer
+Link Text : Bounce Infinity E1
+Link URL  : https://www.flipkart.com/vehicles/bikes-scooters/bounce-infinity~brand/pr?sid=7dk,0aj&otracker=undefined_footer
+Link Text : Buy Laptop on EMI
+Link URL  : https://www.flipkart.com/q/buy-laptop-on-emi?otracker=undefined_footer
+Link Text : Infinix Zero Book Ultra
+Link URL  : https://www.flipkart.com/infinix-zero-book-store?otracker=undefined_footer
+Link Text : OPPO Reno8 5G
+Link URL  : https://www.flipkart.com/oppo-reno8-5g-shimmer-gold-128-gb/p/itmba1bc0bf67ccc?otracker=undefined_footer
+Link Text : OPPO Reno8 Pro 5G
+Link URL  : https://www.flipkart.com/oppo-reno8-pro-5g-glazed-green-256-gb/p/itm30b1eb50ca71f?otracker=undefined_footer
+Link Text : Fresh Flower Bouquet
+Link URL  : https://www.flipkart.com/home-decor/flowers-vases/fresh-flowers/pr?sid=arb,g0v,wfl&otracker=undefined_footer
+Link Text : Electric Cycles
+Link URL  : https://www.flipkart.com/sports/cycling/electric-cycle/pr?sid=abc,ulv,twp&otracker=undefined_footer
+Link Text : Badminton
+Link URL  : https://www.flipkart.com/sports/badminton/pr?sid=abc%2Cegs&otracker=undefined_footer
+Link Text : iphone 14
+Link URL  : https://www.flipkart.com/apple-iphone-14-product-red-128-gb/p/itm1f78a4e1a1d76?otracker=undefined_footer
+Link Text : Bouquet
+Link URL  : https://www.flipkart.com/q/bouquets?otracker=undefined_footer
+Link Text : Laptop Repair Services
+Link URL  : https://www.flipkart.com/laptop-repair-service-store?otracker=undefined_footer
+Link Text : AC Cleaning Services
+Link URL  : https://www.flipkart.com/ac-cleaning-service-store?otracker=undefined_footer
+Link Text : Oneplus Monitors
+Link URL  : https://www.flipkart.com/computers/computer-components/monitors/oneplus~brand/pr?sid=6bo,g0i,9no&otracker=undefined_footer
+Link Text : Grievance Redressal
+Link URL  : https://www.flipkart.com/pages/grievance-redressal-mechanism?otracker=undefined_footer
+Link Text : Mobile Repair Services
+Link URL  : https://www.flipkart.com/mobile-repair-service-store?otracker=undefined_footer
+Link Text : Sell Old Mobile Phones
+Link URL  : https://www.flipkart.com/sell-back-store?otracker=undefined_footer
+Link Text : Premium Laptops
+Link URL  : https://www.flipkart.com/q/premium-laptops?otracker=undefined_footer
+Link Text : Electronics Store
+Link URL  : https://www.flipkart.com/flipkart-electronics-new-store?otracker=undefined_footer
+Link Text : Phone cover
+Link URL  : https://www.flipkart.com/mobile-accessories/cases-and-covers/pr?sid=tyy,4mr,q2u&otracker=undefined_footer
+Link Text : Infinix INBook Y1 Plus
+Link URL  : https://www.flipkart.com/infinix-inbook-y1-plus-intel-core-i3-10th-gen-8-gb-256-gb-ssd-windows-11-home-xl28-thin-light-laptop/p/itm6c066be25ddde?otracker=undefined_footer
+Link Text : Okaya Electric Vehicles
+Link URL  : https://www.flipkart.com/vehicles/bikes-scooters/okaya~brand/pr?sid=7dk,0aj&otracker=undefined_footer
+Link Text : bgauss electric scooter
+Link URL  : https://www.flipkart.com/vehicles/bikes-scooters/bgauss~brand/pr?sid=7dk,0aj&otracker=undefined_footer
+Link Text : OPPO Reno7 Pro 5G
+Link URL  : https://www.flipkart.com/oppo-reno7-pro-5g-startrails-blue-256-gb/p/itm9a6b0ca45fe90?otracker=undefined_footer
+Link Text : iPhone 13
+Link URL  : https://www.flipkart.com/apple-iphone-13-pink-128-gb/p/itm6e30c6ee045d2?otracker=undefined_footer
+Link Text : iPhone 13 Pro
+Link URL  : https://www.flipkart.com/apple-iphone-13-pro-graphite-512-gb/p/itm5c4ef35fbe69f?otracker=undefined_footer
+Link Text : iPhone 13 Pro Max
+Link URL  : https://www.flipkart.com/apple-iphone-13-pro-max-sierra-blue-128-gb/p/itm5ede69d71530a?otracker=undefined_footer
+Link Text : iPhone 13 Mini
+Link URL  : https://www.flipkart.com/apple-iphone-13-mini-starlight-128-gb/p/itmcb65606f21fd3?otracker=undefined_footer
+Link Text : Google Pixel 6a covers
+Link URL  : https://www.flipkart.com/google-bumper-case-pixel-6a/p/itm4aa7b3216aeb9?otracker=undefined_footer
+Link Text : Flipkart Quick
+Link URL  : https://www.flipkart.com/flipkartquick-hyperlocal-campaign-store?otracker=undefined_footer
+Link Text : Ampere Magnus
+]]></system-out>
   </testcase>
 </testsuite>
